@@ -1,0 +1,76 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: hsl(304, 36%, 78%);
+    color: hsl(0, 90%, 31%);
+    margin: auto;
+    max-width: 400px;
+    max-height: 400px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.heading {
+    text-align: left;
+    font-size: 30px;
+    color: #1c0f29;
+    margin: 10px 0 15px;
+}
+
+.card {
+    border-radius: 25px;
+    position: relative;
+    background-color: hsl(161, 46%, 16%);
+    margin: 50px 0;
+    font-size: 15px;
+    height: 300px;
+    box-shadow: 0 4px 9px #382204;
+    text-align: left;
+}
+
+.top {
+    border-radius: 25px 25px 0 0;
+    height: 120px;
+    padding:20 20 0 0;
+    width: 130px;
+    background-color: hsl(90, 88%, 7%);
+    position: absolute;
+    width: 400px;
+    height: 120px;
+    top: auto;
+    left: 0%;
+    display: flex;
+}
+
+.car img {
+    margin: 30px 20px 100px;
+}
+
+.cir-img {
+    margin: 15px 0% 0 230px;
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid pink;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.bottom {
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+.info {
+    position: relative;
+    top: 150px;
+    padding-left: 18px;
+    color: #d38ed3;
+    font-size: 15px;
+}
+
+.namm {
+    padding: 15px 0 0 15px;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #dfe498;
+}
